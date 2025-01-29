@@ -234,4 +234,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker push fafiorim/firefly:latest
+        run: docker push blinkme323/firefly:latest
